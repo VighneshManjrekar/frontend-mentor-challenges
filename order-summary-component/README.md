@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/VighneshManjrekar/frontend-mentor-challenges/tree/main/order-summary-component)
-- Live Site URL: [Add live site URL here](http://vighnesh-manjrekar.me/frontend-mentor-challenges/order-summary-component)
+- Solution URL: [github repo](https://github.com/VighneshManjrekar/frontend-mentor-challenges/tree/main/order-summary-component)
+- Live Site URL: [live demo](http://vighnesh-manjrekar.me/frontend-mentor-challenges/order-summary-component)
 
 ### Built with
 
