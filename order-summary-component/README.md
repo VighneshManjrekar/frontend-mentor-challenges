@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github repo](https://github.com/VighneshManjrekar/frontend-mentor-challenges/tree/main/order-summary-component)
-- Live Site URL: [live demo](http://vighnesh-manjrekar.me/frontend-mentor-challenges/order-summary-component)
+- Live Site URL: [live demo](https://vighnesh-manjrekar.me/frontend-mentor-challenges/order-summary-component)
 
 ### Built with
 
