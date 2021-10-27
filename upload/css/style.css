@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  height: 100vh;
+
+  font-family: "Red Hat Display", sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("../images/pattern-background-mobile.svg");
+  /* background-position: cente; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 18px 35px -10px rgba(114, 128, 167, 0.8);
+  -moz-box-shadow: 0px 18px 35px -10px rgba(114, 128, 167, 0.8);
+  box-shadow: 0px 18px 30px -10px rgba(114, 128, 167, 0.8);
+}
+
+main > img {
+  border-radius: 20px 20px 0 0;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+main section h1 {
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.3rem;
+  text-align: center;
+  font-weight: 900;
+}
+main section p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 1.3rem;
+  line-height: 1.4;
+}
+main section .plan-details-container {
+  background: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1.1rem 0;
+  margin-bottom: 1.3rem;
+}
+.plan-details-container a {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+}
+.plan-details-container .plan-details {
+  display: flex;
+  justify-content: center;
+}
+.plan-details div {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.plan-details div p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+}
+.plan-details .plan-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.proceed-btn {
+  cursor: pointer;
+  background: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 1rem 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: transparent;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  -webkit-box-shadow: 0px 18px 35px -10px rgba(114, 128, 167, 0.8);
+  -moz-box-shadow: 0px 18px 35px -10px rgba(114, 128, 167, 0.8);
+  box-shadow: 0px 18px 30px -10px rgba(114, 128, 167, 0.8);
+}
+
+.cancel-btn {
+  cursor: pointer;
+  background: transparent;
+  border: transparent;
+  padding: 1rem 0.5rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+}
+.proceed-btn:hover {
+  background: #766cf1;
+}
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
+.plan-details-container a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+@media screen and (min-width: 500px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+  main {
+    width: 400px;
+  }
+}
