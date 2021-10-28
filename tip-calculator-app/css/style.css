@@ -10,7 +10,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -25,7 +25,6 @@ input[type=number] {
 }
 
 body {
-
   overflow: auto;
   display: flex;
   flex-direction: column;
@@ -35,7 +34,8 @@ body {
   font-family: "Space Mono", monospace;
   outline: none;
 }
-button,input{
+button,
+input {
   cursor: pointer;
 }
 main {
@@ -63,7 +63,8 @@ main > img {
   flex-direction: column;
   max-width: 375px;
 }
-.input-div,#tip-div {
+.input-div,
+#tip-div {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
@@ -75,12 +76,12 @@ main > img {
   align-items: center;
 }
 .input-div label,
-#tip-div p{
+#tip-div p {
   color: hsl(184, 14%, 56%);
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
-#tip-div p{
+#tip-div p {
   margin-bottom: 1rem;
 }
 .input-div input {
@@ -90,46 +91,46 @@ main > img {
   outline: none;
   text-align: right;
   font-size: 24px;
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   color: hsl(183, 100%, 15%);
   font-weight: 700;
 }
-.input-div input::placeholder{
+.input-div input::placeholder {
   color: hsl(184, 14%, 56%);
 }
 
-#tip-options-div{
+#tip-options-div {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#tip-options-div button,#tip-options-div input{
-  font-family: 'Space Mono', monospace;
+#tip-options-div button,
+#tip-options-div input {
+  font-family: "Space Mono", monospace;
   width: 145px;
   margin-bottom: 0.8rem;
   background: hsl(183, 100%, 15%);
   border: none;
   color: hsl(0, 0%, 100%);
-  padding: 0.5rem ;
+  padding: 0.5rem;
   font-size: 24px;
   font-weight: 700;
   border-radius: 5px;
 }
-#tip-div{
+#tip-div {
   margin-bottom: 0.7rem;
 }
-#tip-options-div input{
+#tip-options-div input {
   background: hsl(189, 41%, 97%);
   text-align: center;
   color: hsl(183, 100%, 15%);
-
 }
-#tip-options-div input::placeholder{
+#tip-options-div input::placeholder {
   color: hsl(184, 14%, 56%);
 }
 
-#result-container{
+#result-container {
   display: flex;
   flex-direction: column;
   background: hsl(183, 100%, 15%);
@@ -137,85 +138,87 @@ main > img {
   padding: 2rem 1rem;
   justify-content: space-around;
 }
-#result-container .result-div{
+#result-container .result-div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
 }
-.result-div p{
+.result-div p {
   color: hsl(0, 0%, 100%);
   font-weight: 700;
 }
-.result-div p span{
+.result-div p span {
   color: hsl(184, 14%, 56%);
   font-weight: 700;
   font-size: 0.9rem;
 }
-#tip-amount,#total{
+#tip-amount,
+#total {
   color: hsl(172, 67%, 45%);
   font-size: 2rem;
 }
-.reset-btn{
+.reset-btn {
   cursor: not-allowed;
   opacity: 0.2;
   position: relative;
   width: 100%;
   background: hsl(172, 67%, 45%);
   border: none;
-  padding: 0.9rem ;
+  padding: 0.9rem;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.1rem;
   color: hsl(183, 100%, 15%);
   margin-top: 1rem;
 }
-.hover-class:hover{
-  background:hsl(185, 41%, 84%);
+.hover-class:hover {
+  background: hsl(185, 41%, 84%);
 }
 #tip-options-div button:hover,
-.active-btn{
-  background:hsl(185, 41%, 84%)!important;
-  color: hsl(183, 100%, 15%)!important;
+.active-btn {
+  background: hsl(185, 41%, 84%) !important;
+  color: hsl(183, 100%, 15%) !important;
 }
 
-
-.error{
+.error {
   display: flex;
   justify-content: space-between;
 }
-.error>span{
+.error > span {
   display: none;
   color: hsl(0, 100%, 58%);
   background: transparent;
 }
-.input-error{
+.input-error {
   border: solid 1px hsl(0, 100%, 58%);
 }
 
-@media screen and (min-width:1000px){
-  body{
+@media screen and (min-width: 1000px) {
+  body {
     height: 100vh;
   }
-  main > img{
-    margin:0 ;
+  main > img {
+    margin: 0;
     margin-bottom: 2.5rem;
   }
-  main{
+  main {
     justify-content: center;
     align-items: center;
   }
-  #main-container{
+  #main-container {
     flex-direction: row;
     justify-content: space-between;
     width: 900px;
+    border-radius: 20px;
   }
-  #result-container{
+  #result-container {
     width: 400px;
     padding: 2rem 3rem;
   }
-#tip-options-div button,#tip-options-div input{
-  width: 120px;
-}
+  #tip-options-div button,
+  #tip-options-div input {
+    width: 120px;
+  }
 }
