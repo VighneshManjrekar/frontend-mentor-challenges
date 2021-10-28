@@ -45,7 +45,7 @@ main {
   width: 375px;
 }
 
-main > img {
+main > h1 > img {
   width: 90px;
   margin: 2.6rem auto;
 }
@@ -199,7 +199,7 @@ main > img {
   body {
     height: 100vh;
   }
-  main > img {
+  main > h1 > img {
     margin: 0;
     margin-bottom: 2.5rem;
   }
