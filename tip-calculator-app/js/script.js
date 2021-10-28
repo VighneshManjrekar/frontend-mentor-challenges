@@ -40,11 +40,12 @@ $(".reset-btn").addEventListener("click", () => {
   document.querySelectorAll(".tip-amount-btn").forEach((btn) => {
     btn.classList.remove("active-btn");
   });
-  tip = people = tipPerPerson = bill = 0;
+  tip = people = tipPerPerson = bill = billPerPerson = 0;
   $("#bill-amount").value = "";
   $("#no-of-people").value = "";
   $("#custom-tip").value = "";
   $("#tip-amount").innerText = "$" + tipPerPerson;
+  $("#total").innerText = "$" + tipPerPerson;
 });
 
 const updateResult = (tip) => {
